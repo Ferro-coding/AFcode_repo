@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    color: black;
+}
+
+
+
+
+.navbar{
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+/*
+.hero{
+    background-color: blueviolet;
+    padding: 40px;
+    border-radius: 25px;
+}
+*/
+
+#maze {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+#maze .wall {
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+#maze .player {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+
+.navbar-toggler{
+    text-decoration: none;
+    border: none;
+}
+
+
+
+#prova:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.title{
+    font-size: 38px;
+}
